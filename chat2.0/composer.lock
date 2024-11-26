@@ -1,0 +1,130 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f189bbf5a037ea5b052dfd6b5a081668",
+    "packages": [
+        {
+            "name": "tigo/chatterbot",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tigoCaval/chatterbot.git",
+                "reference": "89cce274aae9f8621d62c0524cee91e71b0ec7ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tigoCaval/chatterbot/zipball/89cce274aae9f8621d62c0524cee91e71b0ec7ea",
+                "reference": "89cce274aae9f8621d62c0524cee91e71b0ec7ea",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "tigo/crud": "^0.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tigo\\ChatterBot\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tiago A C Pereira",
+                    "email": "tiagocavalcante57@gmail.com"
+                }
+            ],
+            "description": "structure of a simple chatterbot",
+            "keywords": [
+                "chatbot",
+                "chatterbot"
+            ],
+            "support": {
+                "issues": "https://github.com/tigoCaval/chatterbot/issues",
+                "source": "https://github.com/tigoCaval/chatterbot/tree/v0.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/donate?hosted_button_id=9BQYV7FVREN92",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.com/donate?hosted_button_id=ZQRM3T5WG7JL4",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-11-08T18:20:19+00:00"
+        },
+        {
+            "name": "tigo/crud",
+            "version": "v0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tigoCaval/crud.git",
+                "reference": "d73ada91bd64f04bc02cd07ac128801d6d52a78f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tigoCaval/crud/zipball/d73ada91bd64f04bc02cd07ac128801d6d52a78f",
+                "reference": "d73ada91bd64f04bc02cd07ac128801d6d52a78f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tigo\\Crud\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tiago A C Pereira",
+                    "email": "tiagocavalcante57@gmail.com"
+                }
+            ],
+            "description": "Features for working with database. CRUD manipulation data standard",
+            "keywords": [
+                "crud",
+                "database",
+                "pdo",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/tigoCaval/crud/issues",
+                "source": "https://github.com/tigoCaval/crud/tree/v0.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/donate?hosted_button_id=3GW7TCDRUNMAU",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.com/donate?hosted_button_id=YZEFPUDSF22RU",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-07-07T18:18:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

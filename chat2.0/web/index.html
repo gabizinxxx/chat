@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <title>Perguntas e respostas</title>
+</head>
+<body>
+  <style>
+    body {
+             margin: 0;
+             padding: 0;
+             background-color: #0d1117;
+             font-family: Arial, sans-serif;
+         }
+         .header {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             padding: 10px 20px;
+             background-color: #0d1117;
+         }
+         .header .title {
+             background-color: white;
+             padding: 10px 20px;
+             border-radius: 20px;
+             font-weight: bold;
+             font-size: 25px
+         }
+         .header .login {
+             color: white;
+             font-size: 18px;
+         }
+         .header .login i {
+             margin-right: 5px;
+         }
+         .content {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+             height: calc(100vh - 120px);
+             padding: 0 20px;
+         }
+         .suggestions {
+             color: white;
+             text-align: center;
+         }
+         .suggestions i {
+             font-size: 30px;
+             margin-bottom: 10px;
+         }
+         .chat {
+             display: flex;
+             align-items: center;
+         }
+         .chat img {
+             width: 100px;
+             height: 100px;
+             border-radius: 50%;
+             margin-top: -800px;
+             margin-left: -760px;
+                     }
+         .chat .message {
+             background-color: #d1d5da;
+             padding: 10px 20px;
+             border-radius: 20px;
+             margin-left: 10px;
+             font-weight: bold;
+             margin-top: -800px;
+         }
+         .footer {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             padding: 20px;
+             background-color: #0d1117;
+         }
+         .footer .input-box {
+             display: flex;
+             align-items: center;
+             background-color: white;
+             padding: 10px 20px;
+             border-radius: 20px;
+             width: 80%;
+             margin-top: -90px;
+         }
+         .footer .input-box input {
+             border: none;
+             outline: none;
+             flex: 1;
+             font-size: 16px;
+         }
+         .footer .input-box button {
+             background-color: #0d1117;
+             color: white;
+             border: none;
+             padding: 10px 20px;
+             border-radius: 20px;
+             margin-left: 10px;
+             cursor: pointer;
+         }
+         .fa-arrow-right{
+          margin-left: -00px;
+         }
+         .area{
+          color: aqua;
+          margin-bottom: 00px;
+          margin-right: 100px;
+          padding: 100px;
+          background-color: #0d1117;
+          border-radius: 20px;
+          resize: none;
+          border: none;
+          padding-left: 200px;
+          padding-right: 200px;
+         }
+         a { color: inherit; } 
+   </style>
+   <form id="formValues">
+    <div class="header">
+  <div class="title">
+   CHAT BOT
+  </div>
+  <div class="login">
+   <i class="fas fa-user">
+   </i>
+   LOGIN
+  </div>
+ </div>
+ <div class="content">
+  <div class="suggestions">
+   <i class="fas fa-arrow-right">
+   </i>
+   <div>
+   <a href="sugestoes.html" none>SUGESTÕES <br> DE PERGUNTAS</a> 
+   </div>
+  </div>
+  <div name="output" id="output" class="area" ></div>
+  <div class="chat">
+   <img alt="Chat bot image" height="100" src="https://scontent.fcrq1-1.fna.fbcdn.net/v/t39.30808-6/468326930_122117926076571064_4939902619570346103_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=WIdl_M1f-ZwQ7kNvgEmLKp2&_nc_zt=23&_nc_ht=scontent.fcrq1-1.fna&_nc_gid=A__7MnEWs9M8mIQBIarBc3w&oh=00_AYB9XjX4wXO4cCo4-ZUxUVaszSnbeahli4tKKw9X414YRA&oe=67497B94" width="100"/>
+   <div class="message">
+    OLÁ, EM QUE POSSO AJUDAR?
+   </div>
+  </div>
+ </div>
+ 
+ <div class="footer">
+  <div class="input-box">
+   <input id="msg" name="msg" placeholder="FAÇA SUA PERGUNTA..." type="text"/>
+   <button type="submit" id="submit" class="submit">
+    Enviar
+   </button>
+  </div>
+ </div> 
+</form>
+</body>
+<script type="module" src="web/js/post.js"></script>
+</html>

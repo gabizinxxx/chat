@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tigo/chatterbot' => array(
+            'pretty_version' => 'v0.0.2',
+            'version' => '0.0.2.0',
+            'reference' => '89cce274aae9f8621d62c0524cee91e71b0ec7ea',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tigo/chatterbot',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'tigo/crud' => array(
+            'pretty_version' => 'v0.0.1',
+            'version' => '0.0.1.0',
+            'reference' => 'd73ada91bd64f04bc02cd07ac128801d6d52a78f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../tigo/crud',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
